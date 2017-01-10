@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tc2r.meguminsoundboard.MainActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:text="MEGUMIN EXPLOSION!"
+        android:textColor="#fce97e"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_main_tv_title"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:textAlignment="center"/>
+
+    <TableLayout
+        android:id="@+id/activity_main_table1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#80fce97e"
+        android:stretchColumns="*"
+
+        android:layout_below="@id/activity_main_tv_title">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80FDD017"
+            android:layout_margin="2dp" >
+
+            <Button
+                android:textAllCaps="false"
+                android:text="Explosion!"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sb_btn1"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:text="My Name Is"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sb_btn2"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:text="Eugh #1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sb_btn3"/>
+
+        </TableRow>
+
+        <TableRow
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80FDD017"
+            android:layout_margin="2dp" >
+
+            <Button
+                android:textAllCaps="false"
+                android:text="'plosion!"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sb_btn4"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:text="Eyepatch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sb_btn5"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:text="Eugh #2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sb_btn6"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80FDD017"
+            android:layout_margin="2dp" >
+
+            <Button
+                android:textAllCaps="false"
+                android:text="'Sion!"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sb_btn7"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:text="Itai!"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sb_btn8"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:text="Eugh #3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sb_btn9"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80FDD017"
+            android:layout_margin="2dp" >
+
+            <Button
+                android:textAllCaps="false"
+                android:text="'mn!"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sb_btn10"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:text="Yamero!"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sb_btn11"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:text="Eugh #4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sb_btn12"/>
+
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
