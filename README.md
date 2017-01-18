@@ -15,6 +15,6 @@ Open the [.apk](https://github.com/Tc2r/MeguminSoundboard/blob/master/MeguminSou
 
 Enjoy!
 
-![Screenshot1](/app/src/main/res/drawable/screenshot1.png)[Screenshot2](/app/src/main/res/drawable/screenshot2.png)
+![Screenshot1](/app/src/main/res/drawable/screenshot1.png)![Screenshot2](/app/src/main/res/drawable/screenshot2.png)
 
 
